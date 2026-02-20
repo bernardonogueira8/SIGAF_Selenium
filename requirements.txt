@@ -1,0 +1,4 @@
+customtkinter
+selenium
+openpyxl
+pandas
