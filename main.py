@@ -62,12 +62,13 @@ class AppRobo(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("SIGAF Data Scraper Pro")
+        self.title(
+            "Automação do SIGAF - Baixar informações do Secretario de Saúde")
         self.geometry("550x600")
 
         # Variáveis de controle
         self.diretorio_destino = ""
-        
+
         self.prefeituras_ba = [
             "PREFEITURA MUNICIPAL De Abaíra",
             "PREFEITURA MUNICIPAL De Abaré",
